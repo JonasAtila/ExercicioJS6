@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>SUPER JONAS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>LOUCO É POUCO</div>
+        <!--Criar um script que leia nome, sexo e idade de uma pessoa. Após isso, informar em qual grupo a pessoa se encaixa:
+        
+            Homem com + de 30 anos
+            Mulher com - de 25 anos
+        
+            Homem entre 20 e 30 anos
+            Mulher com - de 20 ou + de 50 anos
+        
+            Homem com + de 40 ou Mulher com + de 35 anos-->
+
+
+        <script type="text/javascript">
+
+            var nome = (prompt("Digite seu nome ", "NOME"));
+            var idade = parseInt(prompt("Digite sua idade ", "0"));
+            var salario = parseFloat(prompt("Digite seu salário ", "100000"));
+            var sexo = (prompt("Digite o sexo 'H' ou 'F'", "SEXO"));
+
+            if (nome.length <= 3)
+                document.write("Nome inválido!")
+            else
+                
+            if (idade < 0, idade > 30)
+                document.write("Idade inválida!")
+            else
+                
+            if (salario < 0)
+                document.write("salario inválido!")
+            else
+                
+            if ((sexo !='M' || sexo !='F') || (sexo !='m' || sexo !='f'))
+                document.write("Sexo inválido!")
+            else
+                document.write("erro")
+
+            document.write("<br>" + "Nome = " + nome + "<br>");
+            document.write("Idade = " + idade + "<br>");
+            document.write("Salário = " + salario + "<br>");
+            document.write("Sexo = " + sexo + "<br>");
+
+
+
+        </script>
+    </body>
+</html> 
